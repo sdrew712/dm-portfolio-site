@@ -1,0 +1,55 @@
+body{
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./images/gradient-background.png");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: #2C2C34;
+  padding-left: 8rem;
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+a{
+  padding: 1rem;
+  text-decoration: none;
+  color: #2C2C34;
+}
+
+h1{
+  font-size: 8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+#header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.section-container{
+  /* padding-top: 6rem; */
+}
+
+.skill{
+  background-color: #EEEFF1;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 15px;
+  border: 1px solid #ced1df;
+  margin-right: 0.5rem;
+}
