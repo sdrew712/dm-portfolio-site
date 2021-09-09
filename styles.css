@@ -3,14 +3,14 @@ body{
   background-size: cover;
   font-family: 'Poppins', sans-serif;
   color: #2C2C34;
-  padding-left: 8rem;
 }
 
 nav{
-  display: flex;
-  justify-content: end;
-  padding-right: 2rem;
-  padding-top: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 a{
@@ -23,14 +23,25 @@ h1{
   font-size: 8rem;
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 1.5rem;
 }
 
 h2{
   font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1.5rem;
 }
 
 h3{
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p{
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 #header{
@@ -39,14 +50,18 @@ h3{
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .section-container{
-  /* padding-top: 6rem; */
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 10rem;
 }
 
 .skill{
-  background-color: #EEEFF1;
+  background-color: white;
   padding: 0.5rem 1rem 0.5rem 1rem;
   display: inline-block;
   border-radius: 15px;
