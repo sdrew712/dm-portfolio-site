@@ -14,8 +14,6 @@ nav{
 }
 
 a{
-  padding: 1rem;
-  text-decoration: none;
   color: #2C2C34;
 }
 
@@ -41,7 +39,14 @@ h3{
 
 p{
   font-size: 1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.nav-link{
+  padding: 1rem;
+  text-decoration: none;
 }
 
 #header{
@@ -60,6 +65,10 @@ p{
   padding-bottom: 10rem;
 }
 
+#skills-container{
+  max-width: 30rem;
+}
+
 .skill{
   background-color: white;
   padding: 0.5rem 1rem 0.5rem 1rem;
@@ -67,4 +76,26 @@ p{
   border-radius: 15px;
   border: 1px solid #ced1df;
   margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#img-container{
+  padding-top: 1rem;
+}
+
+#linkedin-logo{
+  width: 10%;
+  height: 10%;
+  padding-bottom: 1rem;
+}
+
+#github-logo{
+  width: 3%;
+  height: 3%;
+}
+
+#source-code-container{
+  text-align: center;
+  padding-bottom: 4rem;
+  font-size: 1.5rem;
 }

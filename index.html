@@ -7,45 +7,74 @@
   <title>Sarah's Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="header">
     <nav>
-      <a href="">About</a>
-      <a href="">Skills</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
     </nav>
     <h1>Hi there!</h1>
     <h3>I’m Sarah- a web developer, skater, writer, and musician. Learn more about me below.</h3>
   </div>
 
-  <div class="section-container">
+  <div class="section-container" id="about">
     <h2>About</h2>
-    <p>Like most 18 year olds, I started out not knowing what it was I wanted to do. I spent hours researching degrees and seeing what options my college had to offer, but nothing caught my eye.</p>
+    <p>Like most 18 year olds, I started out not knowing what it was I wanted to do for a career. I spent hours researching degrees and seeing what options my college had to offer, but nothing caught my eye.</p>
     <p>But I've always spent my days on computers— gaming, writing stories, and learning to build my  own PC. So it only was natural that I tried coding.</p>
     <p>I started a Udemy course on web development and found that I really enjoyed it. After that, I started building my own website and attended the bootcamp DevMountain, where I am today!</p>
   </div>
 
-  <div class="section-container">
+  <div class="section-container" id="skills">
     <h2>Skills</h2>
       <div id="skills-container">
         <div class="skill">HTML</div>
         <div class="skill">CSS</div>
+        <div class="skill">Sass</div>
         <div class="skill">Javascript</div>
-        <div class="skill">React</div>
+        <div class="skill">Git</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">React.js</div>
+        <div class="skill">Express</div>
+        <div class="skill">PostgreSQL</div>
       </div>
   </div>
 
-  <div class="section-container">
+  <div class="section-container" id="projects">
     <h2>Projects</h2>
+    <div class="project">
+
+    </div>
+    <div class="project">
+
+    </div>
   </div>
 
-  <div class="section-container">
+  <div class="section-container" id="contact">
     <h2>Contact</h2>
+    <div id="img-container">
+      <a href="https://www.linkedin.com/in/sarah-drew-dev/">
+        <img id="linkedin-logo" src="./images/linkedin-logo.png" alt="linkedin_logo">
+      </a>
+      <br>
+      <a href="https://github.com/sdrew712">
+        <img id="github-logo" src="./images/github-logo-64px.png" alt="github_logo">
+      </a>
+    </div>
+  </div>
+  
+  <div id="source-code-container">
+    <a href="https://github.com/sdrew712/sdrew712.github.io">View source code</a>
   </div>
 </body>
 </html>
