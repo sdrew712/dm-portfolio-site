@@ -94,29 +94,30 @@ p {
   width: 43%;
   height: 300px;
   margin: 10px 0;
-  transition: transform 0.2s;
-  /* filter: brightness(100%); */
-  text-decoration: none;
+  transition: transform 0.5s;
+}
+
+.project-details {
+  display: none;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .project:hover {
   transform: scale(1.05);
-  /* filter: brightness(70%); */
-  transition: all 0.75 ease;
+  transition: all 1 ease;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
-.project:hover .project-title {
+.project:hover .project-details {
   display: block;
 }
 #recipize:hover  {
-  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("../images/recipize.png");
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("../images/recipize.png");
 }
 #noodle:hover {
-  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("./images/noodle-site.png");
-}
-
-.project-title {
-  display: none;
-  color: white;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("./images/noodle-site.png");
 }
 
 #recipize {
