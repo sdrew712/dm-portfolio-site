@@ -1,53 +1,54 @@
-body{
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./images/gradient-background.png");
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./images/gradient-background.png");
   background-size: cover;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #2C2C34;
 }
 
-nav{
+nav {
   position: fixed;
   right: 0;
   top: 0;
   padding-right: 2.5rem;
   padding-top: 2.5rem;
-  transition: top 0.3s; 
+  transition: top 0.3s;
+  z-index: 1;
 }
 
-a{
+a {
   color: #2C2C34;
 }
 
-h1{
+h1 {
   font-size: 8rem;
   margin: 0;
   padding-bottom: 2rem;
 }
 
-h2{
+h2 {
   font-size: 2rem;
   margin: 0;
   padding-bottom: 2rem;
 }
 
-h3{
+h3 {
   font-size: 2rem;
   margin: 0;
 }
 
-p{
+p {
   font-size: 1.1rem;
   padding-bottom: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 
-.nav-link{
+.nav-link {
   padding: 1rem;
   text-decoration: none;
 }
 
-#header{
+#header {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -57,17 +58,17 @@ p{
   padding-right: 8rem;
 }
 
-.section-container{
+.section-container {
   padding-left: 8rem;
   padding-right: 8rem;
   padding-bottom: 10rem;
 }
 
-#skills-container{
+#skills-container {
   max-width: 30rem;
 }
 
-.skill{
+.skill {
   background-color: white;
   padding: 0.5rem 1rem 0.5rem 1rem;
   display: inline-block;
@@ -77,55 +78,64 @@ p{
   margin-bottom: 1rem;
 }
 
-#projects-container{
+#projects-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.project-title{
-  padding-top: 0;
-  padding-bottom: 1rem;
-  align-self: flex-start;
-}
-
-.project{
+.project {
   background-color: white;
   padding: 1.5rem;
   display: inline-block;
   border-radius: 15px;
-  box-shadow: 2px 2px 20px rgb(0 0 0 / 25%);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
   width: 43%;
+  height: 300px;
   margin: 10px 0;
+  transition: transform 0.2s;
+  filter: brightness(100%);
+  text-decoration: none;
 }
 
-#recipize-item{
-  width: 100%;
+.project:hover {
+  transform: scale(1.05);
+  filter: brightness(70%);
+  transition: all 0.75 ease;
+}
+.project:hover .project-title {
+  display: block;
+  filter: brightness(100%)
 }
 
-.project-item{
-  max-width: 100%;
-  max-height: 100%;
+.project-title {
+  display: none;
+  color: white;
 }
 
-iframe{
-  border: 0;
+#recipize {
+  background-image: url("./images/recipize.png");
+  background-size: cover;
+  background-position: center;
 }
 
-.scroll{
-  max-height: 30rem;
-  overflow: scroll;
+#noodle {
+  background-image: url("./images/noodle-site.png");
+  background-size: cover;
+  background-position: center;
 }
 
-#linkedin-logo{
+#linkedin-logo {
   width: 10%;
   height: 10%;
   padding-bottom: 1rem;
 }
 
-#source-code-container{
+#source-code-container {
   text-align: center;
   padding-bottom: 4rem;
   font-size: 1.5rem;
 }
+
+/*# sourceMappingURL=styles.css.map */
