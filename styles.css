@@ -95,18 +95,23 @@ p {
   height: 300px;
   margin: 10px 0;
   transition: transform 0.2s;
-  filter: brightness(100%);
+  /* filter: brightness(100%); */
   text-decoration: none;
 }
 
 .project:hover {
   transform: scale(1.05);
-  filter: brightness(70%);
+  /* filter: brightness(70%); */
   transition: all 0.75 ease;
 }
 .project:hover .project-title {
   display: block;
-  filter: brightness(100%)
+}
+#recipize:hover  {
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("../images/recipize.png");
+}
+#noodle:hover {
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("./images/noodle-site.png");
 }
 
 .project-title {
@@ -137,5 +142,3 @@ p {
   padding-bottom: 4rem;
   font-size: 1.5rem;
 }
-
-/*# sourceMappingURL=styles.css.map */
