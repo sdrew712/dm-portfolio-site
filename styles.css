@@ -43,6 +43,14 @@ p {
   margin: 0;
 }
 
+hr{
+  border: 0;
+  border-top: 1px solid #2C2C34;
+  margin: 0;
+  padding: 0;
+  opacity: 25%;
+}
+
 .nav-link {
   padding: 1rem;
   text-decoration: none;
@@ -61,7 +69,8 @@ p {
 .section-container {
   padding-left: 8rem;
   padding-right: 8rem;
-  padding-bottom: 10rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 #skills-container {
@@ -138,8 +147,12 @@ p {
   padding-bottom: 1rem;
 }
 
-#source-code-container {
-  text-align: center;
-  padding-bottom: 4rem;
+#contact {
+  padding-bottom: 6rem;
   font-size: 1.5rem;
+}
+
+#source{
+  text-align: center;
+  padding-top: 6rem;
 }
